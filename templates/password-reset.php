@@ -76,9 +76,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<?php } else { ?>
 					<div class="um-field um-field-block um-field-type_block">
 						<div class="um-field-block">
-							<div style="text-align:center;">
+							<label style="text-align:center;" for="username_b">
 								<?php esc_html_e( 'To reset your password, please enter your email address or username below.', 'ultimate-member' ); ?>
-							</div>
+							</label>
 						</div>
 					</div>
 				<?php }
